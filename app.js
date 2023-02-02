@@ -5,6 +5,8 @@ app.get('/', (req, res) => {
     res.send('Welcome')
 })
 
-app.listen(8000, () => {
+const port = process.env.PORT || 1337
+
+app.listen(port, () => {
     console.log('Listening on 8000 port')
 })

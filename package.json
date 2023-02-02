@@ -2,8 +2,21 @@
   "dependencies": {
     "express": "^4.18.2"
   },
-
   "scripts": {
     "start": "node app.js"
-  }
+  },
+  "name": "sda_cicd",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanmoy-SWE/SDA_Ci_Cd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanmoy-SWE/SDA_Ci_Cd/issues"
+  },
+  "homepage": "https://github.com/Tanmoy-SWE/SDA_Ci_Cd#readme",
+  "description": ""
 }
